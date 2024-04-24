@@ -46,10 +46,15 @@ let currentText = document.getElementById('myUsername').innerHTML;
 const userName = prompt('Inserisci il tuo nome');
 const userLastName = prompt('Inserisci il tuo cognome');
 const color = prompt('Inserisci il tuo colore preferito');
+// const number = 21;
+
+// bonus numero casuale**********************
+let casualNumber = Math.random() * 1000;
+// bonus numero casuale**********************
 
 // interpolazione backtick
 
-currentText = `${userName}${userLastName}${color}`;
+currentText = `${userName} ${userLastName} ${color} ${casualNumber}`;
 
 // console
 
