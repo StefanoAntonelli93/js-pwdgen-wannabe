@@ -35,7 +35,7 @@
 // console.log(`${userName} ${userLastName}`);
 
 
-console.log(document.getElementById('myUsername'));
+// console.log(document.getElementById('myUsername'));
 
 
 
@@ -46,7 +46,8 @@ let currentText = document.getElementById('myUsername').innerHTML;
 const userName = prompt('Inserisci il tuo nome');
 const userLastName = prompt('Inserisci il tuo cognome');
 const color = prompt('Inserisci il tuo colore preferito');
-// const number = 21;
+// const number = 21; 
+
 
 // bonus numero casuale**********************
 let casualNumber = Math.random() * 1000;
@@ -54,7 +55,7 @@ let casualNumber = Math.random() * 1000;
 
 // interpolazione backtick
 
-currentText = `${userName} ${userLastName} ${color} ${casualNumber}`;
+currentText = `${userName}${userLastName}${color}${casualNumber}`;
 
 // console
 
@@ -80,10 +81,12 @@ document.getElementById('myUsername').innerHTML = currentText;
 
 // currentText = `${currentText}  ${userName} ${userLastName}`;
 
-// // console
+// // visibile inconsole
 
 // console.log(currentText);
 
-// // browser
+// // visibile in browser
 
 // currentElement.innerHTML = currentText;
+
+
